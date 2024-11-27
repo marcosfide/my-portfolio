@@ -39,7 +39,7 @@ const Introduction = () => {
                         />
                     </h1>
                     <p className="mx-auto mb-2 text-lg md:text-xl md:mx-o md:mb-8">
-                    Desarrollador Full Stack Junior con experiencia en tecnologías  <strong>MERN</strong> (MongoDB, Express, React, Node.js)y amplios conocimiento en bases de datos SQL y <strong>MySQL</strong>. Me apasiona crear soluciones que optimicen los procesos y mejoren la experiencia de usuario. Siempre busco desafíos que me permitan aprender nuevas herramientas para mejorar mis habilidades de desarrollo web.
+                    Desarrollador Full Stack Junior con experiencia en tecnologías <strong>MERN</strong> (MongoDB, Express, React, Node.js)y amplios conocimiento en bases de datos SQL y <strong>MySQL</strong>. Me apasiona crear soluciones que optimicen los procesos y mejoren la experiencia de usuario. Siempre busco desafíos que me permitan aprender nuevas herramientas para mejorar mis habilidades como desarrollador web.
                     </p>
 
                     <div className="flex item-center gap-3 md:justify-start md:gap-10">
