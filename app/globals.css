@@ -2,15 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+html {
+  /* height: 100%; */
+}
+html,
+body {
+  /* height: 100%; */
   color: #fff;
-  background-color: #1f1934;
+  background: #1f1934;
 }
 
 main {
-  background:  #393a47;
-  height: 100vh;
-  height: 100dvh;
+  background: #393a47;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #ca8a04;
 }
 
 @layer utilities {
