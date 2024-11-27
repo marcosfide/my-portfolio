@@ -20,7 +20,7 @@ const Introduction = () => {
                 
                 <div className="flex flex-col justify-center max-w-lg mx-auto md:mx-1">
                     <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
-                        ¡Hola, soy Marcos!
+                        Desarrollador en Full Stack Junior
                         <TypeAnimation
                             sequence={[
                                 "Desarrollador Full Stack Junior",
@@ -39,7 +39,7 @@ const Introduction = () => {
                         />
                     </h1>
                     <p className="mx-auto mb-2 text-lg md:text-xl md:mx-o md:mb-8">
-                        Soy un desarrollador Full Stack Junior con experiencia trabajando con las tecnologías <strong>MERN</strong> (MongoDB, Express, React, Node.js). Además, tengo conocimiento en bases de datos SQL y <strong>MySQL</strong>. Me apasiona crear soluciones que optimicen los procesos y mejoren la experiencia de usuario. Siempre busco aprender nuevas herramientas y mejorar mis habilidades de desarrollo web.
+                    Desarrollador Full Stack Junior con experiencia en tecnologías  <strong>MERN</strong> (MongoDB, Express, React, Node.js)y amplios conocimiento en bases de datos SQL y <strong>MySQL</strong>. Me apasiona crear soluciones que optimicen los procesos y mejoren la experiencia de usuario. Siempre busco desafíos que me permitan aprender nuevas herramientas para mejorar mis habilidades de desarrollo web.
                     </p>
 
                     <div className="flex item-center gap-3 md:justify-start md:gap-10">

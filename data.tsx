@@ -166,7 +166,7 @@ export const dataCounter = [
     },
     {
         id: 1,
-        endCounter: 4,
+        endCounter: 5,
         text: "Proyectos completados",
         lineRight: true,
         lineRightMobile: false,
