@@ -1,4 +1,3 @@
-import Avatar from "@/components/avatar";
 import ContainerPage from "@/components/container";
 import CounterServices from "@/components/counter-services";
 import TimeLine from "@/components/time-line";
