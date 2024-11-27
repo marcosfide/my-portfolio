@@ -10,7 +10,7 @@ const ServicesPage = () => {
                 <div className="max-w-[370px] md:max-w-[450px] z-10">
                     <h1 className="text-3xl leading-tight text-center md:text-4xl md:mb-5">Mis <span className="font-bold text-yellow-600"> servicios.</span></h1>
                     <p className="mb-3 text-lg text-gray-300 md:text-xl">
-                        Soy desarrollador web enfocados en la creación de sitios y aplicaciones personalizadas que combinan diseño atractivo y funcionalidad. 
+                        Soy desarrollador web enfocado en la creación de sitios y aplicaciones personalizadas que combinan diseño atractivo y funcionalidad. 
                         Tengo experiencia trabajando con tecnologías como HTML, CSS, JavaScript, React, Node.js, Sql y MySql, asegurándome de que cada proyecto sea responsivo, intuitivo y optimizado para cumplir con tus objetivos.
                     </p>
                     <Link href="/contact-me" 
