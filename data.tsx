@@ -223,7 +223,7 @@ export const dataPortfolio = [
         title: "E-commerce - Nodejs, Express, MongoDB",
         image: "/ecommerce-node-image.png",
         urlGithub: "https://github.com/marcosfide/Backend-Fidelibus",
-        urlDemo: "https://marcosfidelibus.vercel.app/",
+        urlDemo: "https://ecommerce-marcos-fidelibus.up.railway.app/",
         urlVideo: "/registro-us-prem.webm",
         urlVideo2: "/sup-admin-Login-github-reset.webm"
     },
