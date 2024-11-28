@@ -11,14 +11,12 @@ import {
     Mail,
     Github,
     FileText,
-    File,
-    FileArchive
 } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <File size={30}  />,
+        logo: <FileText size={30}  />,
         src: "/CV-Fidelibus-Marcos.pdf",
     },
     {
