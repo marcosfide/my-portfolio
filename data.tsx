@@ -5,41 +5,42 @@ import {
     HomeIcon,
     UserRound,
     Linkedin,
-    Twitter,
-    Rss,
-    Twitch,
-    Youtube,
-    Crop,
     Pencil,
     Computer,
-    Book,
-    Rocket,
     Speech,
     Mail,
     Github,
+    FileText,
+    File,
+    FileArchive
 } from "lucide-react";
 
 export const socialNetworks = [
-  {
-    id: 1,
-    logo: <Linkedin size={30} strokeWidth={1} />,
-    src: "https://linkedin.com/in/marcos-fidelibus",
-  },
-  {
-    id: 2,
-    logo: <Mail size={30} strokeWidth={1} />,
-    src: "mailto:fidelibusmarcos@gmail.com",
-  },
-  {
-    id: 3,
-    logo: <Github size={30} strokeWidth={1} />,
-    src: "https://github.com/marcosfide",
-  },
-  {
-    id: 4,
-    logo: <FaWhatsapp size={30} color="#25D366" />,
-    src: "https://wa.me/34685803522?text=¡Hola!",
-  },
+    {
+        id: 1,
+        logo: <File size={30}  />,
+        src: "/CV-Fidelibus-Marcos.pdf",
+    },
+    {
+        id: 2,
+        logo: <Linkedin size={30} strokeWidth={1} />,
+        src: "https://linkedin.com/in/marcos-fidelibus",
+    },
+    {
+        id: 3,
+        logo: <Mail size={30} strokeWidth={1} />,
+        src: "mailto:fidelibusmarcos@gmail.com",
+    },
+    {
+        id: 4,
+        logo: <Github size={30} strokeWidth={1} />,
+        src: "https://github.com/marcosfide",
+    },
+    {
+        id: 5,
+        logo: <FaWhatsapp size={30} color="#25D366" />,
+        src: "https://wa.me/34685803522?text=¡Hola!",
+    },
 ];
 
   
