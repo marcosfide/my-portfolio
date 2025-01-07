@@ -14,7 +14,7 @@ const PortfolioPage = () => {
                             trabajos realizados
                         </span>
                     </h1>
-                    <div className="relative z-10 grid max-w-5xl gap-6 md:gap-8 mx-auto mt-4 sm:grid-cols-2 md:grid-cols-2">
+                    <div className="relative z-10 grid max-w-5xl gap-6 md:gap-8 mx-auto mt-4 mb-24 sm:grid-cols-2 md:grid-cols-2">
                         {dataPortfolio.map((data) => (
                             <PortfolioBox key={data.id} data={data} />
                         ))}

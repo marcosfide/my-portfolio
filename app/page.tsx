@@ -11,6 +11,7 @@ export default function Home() {
       <div
         className="flex bg-no-repeat"
         style={{
+          height: '100%',
           backgroundImage:
             'linear-gradient(90.21deg, rgb(22, 29, 65) -5.91%, rgba(48, 0, 255, 0.5) 111.58%)'
         }}

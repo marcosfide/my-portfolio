@@ -3,17 +3,18 @@
 @tailwind utilities;
 
 html {
-  /* height: 100%; */
+  height: 100%;
 }
 html,
 body {
-  /* height: 100%; */
+  height: 100%;
   color: #fff;
   background: #1f1934;
 }
 
 main {
   background: #393a47;
+  height: 100%;
 }
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
