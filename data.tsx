@@ -154,7 +154,6 @@ export const dataAboutPage = [
     },
 ];
 
-
 export const dataCounter = [
     {
         id: 0,
@@ -210,11 +209,11 @@ export const dataPortfolio = [
     },
     {
         id: 2,
-        title: "Blog interactivo - Reactjs, Nodejs",
+        title: "Blog interactivo - Reactjs, Nodejs, MongoDB",
         image: "/Blog-foto.png",
         urlGithub: "https://github.com/marcosfide/blog-frontreact",
         urlGithubBack: "https://github.com/marcosfide/blog-backnode",
-        urlDemo: "https://blog-frontreact.onrender.com/",
+        urlDemo: "https://blog-frontreact-production.up.railway.app/",
         urlVideo: "/Blog-video.webm"
     },
     {
