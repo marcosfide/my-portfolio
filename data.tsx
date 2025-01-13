@@ -228,7 +228,7 @@ export const dataPortfolio = [
         image: "/app-clima.png",
         urlGithub: "https://github.com/marcosfide/mi-app-clima",
         urlDemo: "https://mi-app-clima.vercel.app/",
-        urlVideo: "/app-clima-video.webm"
+        urlVideo: "/app-clima.webm"
     },
     {
         id: 5,
