@@ -41,9 +41,6 @@ export const socialNetworks = [
     },
 ];
 
-  
-
-
 export const itemsNavbar = [
     {
         id: 1,
@@ -227,6 +224,14 @@ export const dataPortfolio = [
     },
     {
         id: 4,
+        title: "Mi App de Clima",
+        image: "/app-clima.png",
+        urlGithub: "https://github.com/marcosfide/mi-app-clima",
+        urlDemo: "https://mi-app-clima.vercel.app/",
+        urlVideo: "/app-clima-video.mp4"
+    },
+    {
+        id: 5,
         title: "Sofía - Community Manager",
         image: "/Sofi-CM-image.png",
         urlGithub: "https://github.com/marcosfide/ProyectoFinal-Fidelibus",
