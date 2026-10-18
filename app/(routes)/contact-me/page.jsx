@@ -51,10 +51,10 @@ const ContactMePage = () => {
                                 <strong>Nombre y Apellido:</strong> Marcos Fidelibus
                             </p>
                             <p className="text-gray-300">
-                                <strong>Teléfono:</strong> +34 685 80 35 22
+                                <strong>Teléfono:</strong> +54 341 314-5129
                                 {/* Ícono de WhatsApp */}
                                 <a
-                                    href="https://wa.me/34685803522?text=¡Hola!"
+                                    href="https://wa.me/543413145129?text=¡Hola!"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="ml-1 -mb-1 inline-block"
@@ -83,7 +83,7 @@ const ContactMePage = () => {
                                 </a>
                             </p>
                             <p className="text-gray-300">
-                                <strong>Ubicación:</strong> Torremolinos, Málaga, España
+                                <strong>Ubicación:</strong> Rosario, Santa Fe, Argentina
                             </p>
                         </div>
 

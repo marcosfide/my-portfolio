@@ -18,7 +18,7 @@ const urbanist = Urbanist({
 
 export const metadata: Metadata = {
   title: "Portfolio - Marcos Fidelibus",
-  description: "Marcos Fidelibus Portfolio",
+  description: "Portfolio de Marcos Fidelibus, desarrollador full stack en Rosario, Argentina. React, TypeScript, Node.js, AdonisJS y MySQL.",
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={`${urbanist.className}`}>
         <Navbar/>
         <Header/>

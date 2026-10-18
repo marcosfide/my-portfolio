@@ -21,7 +21,7 @@ const TimeLine = () => {
                                 <time style={{width:"6rem", height:"fit-content", padding:"6px"}} className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">{data.date}</time>
                                 <div className="text-xl font-bold text-gray-400">{data.subtitle}</div>
                             </div>
-                            <div className="text-slate-400">{data.description}</div>
+                            <div className="text-slate-400 whitespace-pre-line">{data.description.trim()}</div>
                         </div>
                     ))}
                 </div>

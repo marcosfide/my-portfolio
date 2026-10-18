@@ -11,6 +11,7 @@ import {
     Mail,
     Github,
     FileText,
+    Globe,
 } from "lucide-react";
 
 export const socialNetworks = [
@@ -37,7 +38,7 @@ export const socialNetworks = [
     {
         id: 5,
         logo: <FaWhatsapp size={30} color="#25D366" />,
-        src: "https://wa.me/34685803522?text=¡Hola!",
+        src: "https://wa.me/543413145129?text=¡Hola!",
     },
 ];
 
@@ -80,10 +81,22 @@ export const dataAboutPage = [
         title: "Desarrollador de Software",
         subtitle: "Colegio de Farmacéuticos de Santa Fe 2da Circunscripción",
         description: `
-            - Optimización de interfaces de usuario con CSS en ReactJS, mejorando la experiencia del usuario.
-            - Diseño de consultas SQL avanzadas en MySQL, mejorando el rendimiento y la integridad de los datos.
-            - Desarrollo de funcionalidades backend con Node.js y creación de pantallas dinámicas basadas en un sistema configurable.`,
+            - Desarrollo full stack de los sistemas internos del Colegio: frontend en React y backend en AdonisJS con TypeScript y MySQL/MariaDB.
+            - Desarrollo del módulo de seguimiento de medicación de pacientes de Farmageo: migraciones SQL, stored procedures, triggers, modelos con Lucid ORM y panel de administración en React.
+            - Creación de pantallas, listados y ABMs dinámicos sobre un sistema genérico guiado por configuraciones en base de datos.
+            - Implementación de PWA (íconos y manifest) para tres sitios del Colegio, y despliegues en servidores con Node.js, PM2 y Nginx.`,
         date: "Abr 2023 - Actualidad",
+    },
+    {
+        id: 2,
+        title: "Desarrollador Web Freelance",
+        subtitle: "Sitios web para negocios",
+        description: `
+            - ProteiFuel: tienda online con catálogo, carrito, pedidos por WhatsApp y acceso para clientes mayoristas con precios propios.
+            - Lomas de Intiyaco: sitio para un complejo de cabañas en Córdoba, con galería, comodidades, ubicación y consultas por WhatsApp.
+            - Estudio Jurídico Navas: landing institucional para un estudio de abogados de Rosario, con SEO y Open Graph.
+            - Desarrollados con Vite, responsive y optimizados para SEO.`,
+        date: "2026",
     },
     {
         id: 3,
@@ -107,10 +120,10 @@ export const dataAboutPage = [
         subtitle: "CoderHouse",
         description: `
             Aprendizaje de Node.js, Express.js, y MongoDB. Implementación de validaciones y lógica de negocio.`,
-        date: "Ene 2023 - Jul 2024",
+        date: "Ene 2024 - Jul 2024",
     },
     {
-        id: 4,
+        id: 6,
         title: "E-commerce - Intiyaco Merch",
         subtitle: "Proyecto Personal - Curso de React.js (CoderHouse)",
         description: `
@@ -118,7 +131,7 @@ export const dataAboutPage = [
         date: "Ene 2024",
     },
     {
-        id: 5,
+        id: 7,
         title: "Curso de React.js",
         subtitle: "CoderHouse",
         description: `
@@ -126,7 +139,7 @@ export const dataAboutPage = [
         date: "Nov 2023 - Ene 2024",
     },
     {
-        id: 6,
+        id: 8,
         title: "Sofía - Community Manager",
         subtitle: "Proyecto - Curso de Desarrollo Web y JavaScript (CoderHouse)",
         description: `
@@ -134,7 +147,7 @@ export const dataAboutPage = [
         date: "Nov 2023",
     },
     {
-        id: 7,
+        id: 9,
         title: "Curso de JavaScript",
         subtitle: "CoderHouse",
         description: `
@@ -142,7 +155,7 @@ export const dataAboutPage = [
         date: "Sep 2023 - Nov 2023",
     },
     {
-        id: 8,
+        id: 10,
         title: "Curso de Desarrollo Web",
         subtitle: "CoderHouse",
         description: `
@@ -154,14 +167,14 @@ export const dataAboutPage = [
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 1.5,
+        endCounter: 3.5,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 5,
+        endCounter: 8,
         text: "Proyectos completados",
         lineRight: true,
         lineRightMobile: false,
@@ -169,7 +182,7 @@ export const dataCounter = [
     {
         id: 2,
         endCounter: 6,
-        text: "Certficaciones recibidas",
+        text: "Certificaciones recibidas",
         lineRight: true,
         lineRightMobile: true,
     },
@@ -184,9 +197,14 @@ export const dataCounter = [
 
 export const serviceData = [
     {
+        icon: <Globe />,
+        title: "Sitios web para negocios",
+        description: "Landings, sitios institucionales y tiendas con catálogo y pedidos por WhatsApp. Responsive, rápidos y optimizados para SEO, listos para publicar con dominio propio.",
+    },
+    {
         icon: <Computer />,
-        title: "Desarrollo web",
-        description: "Creación de sitios web personalizados utilizando tecnologías modernas como React, Node.js y bases de datos (MongoDB, MySQL).",
+        title: "Desarrollo de sistemas web",
+        description: "Aplicaciones y paneles de gestión a medida con React, TypeScript, Node.js / AdonisJS y bases de datos SQL (MySQL) o MongoDB.",
     },
     {
         icon: <Pencil />,
@@ -196,6 +214,30 @@ export const serviceData = [
 ];
 
 export const dataPortfolio = [
+    {
+        id: 6,
+        title: "ProteiFuel - Tienda online",
+        description: "Catálogo con carrito, promos automáticas, pedidos por WhatsApp y acceso para mayoristas con precios propios.",
+        tags: ["Vite", "JavaScript", "Responsive", "SEO"],
+        image: "/proteifuel.webp",
+        urlDemo: "https://proteifuel.com/",
+    },
+    {
+        id: 7,
+        title: "Lomas de Intiyaco - Cabañas",
+        description: "Sitio para un complejo de cabañas en Córdoba: cabañas, comodidades, galería, ubicación y consultas por WhatsApp.",
+        tags: ["Vite", "JavaScript", "Vercel", "SEO"],
+        image: "/lomas-intiyaco.webp",
+        urlDemo: "https://lomas-intiyaco-cabanas.vercel.app/",
+    },
+    {
+        id: 8,
+        title: "Estudio Jurídico Navas",
+        description: "Landing institucional para un estudio de abogados de Rosario, con áreas de práctica, equipo y contacto.",
+        tags: ["Vite", "JavaScript", "Vercel", "SEO"],
+        image: "/estudio-navas.webp",
+        urlDemo: "https://estudiojuridiconavas.vercel.app/",
+    },
     {
         id: 1,
         title: "E-commerce - Intiyaco Merch - Reactjs",

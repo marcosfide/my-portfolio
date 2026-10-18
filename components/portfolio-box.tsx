@@ -4,49 +4,69 @@ import Link from "next/link"
 interface PortfolioBoxProps {
     data: {
         title: string,
+        description?: string,
+        tags?: string[],
         image: string,
-        urlGithub:string,
+        urlGithub?: string,
         urlGithubBack?: string;
-        urlDemo:string
-        urlVideo:string,
-        urlVideo2?:string
+        urlDemo: string
+        urlVideo?: string,
+        urlVideo2?: string
     }
 }
 
 const PortfolioBox = (props : PortfolioBoxProps) => {
     const { data } = props;
-    const { title, image, urlGithub, urlGithubBack, urlDemo, urlVideo, urlVideo2 } = data;
+    const { title, description, tags, image, urlGithub, urlGithubBack, urlDemo, urlVideo, urlVideo2 } = data;
 
-    return ( 
-        <div className="p-4 border border-teal-50 rounded-xl">
+    return (
+        <div className="flex flex-col p-4 border border-teal-50 rounded-xl">
             <h3 className="mb-4 text-xl font-bold">
                 {title}
             </h3>
-            <Link href={image} target="_blank">
-                <Image 
-                    src={image} 
-                    alt={`imagen del proyecto ${title}`} 
-                    width={200} 
-                    height={200} 
-                    className="w-full rounded-2xl h-auto cursor-pointer m-auto" 
+            <Link href={urlDemo} target="_blank">
+                <Image
+                    src={image}
+                    alt={`imagen del proyecto ${title}`}
+                    width={760}
+                    height={365}
+                    className="w-full rounded-2xl h-auto cursor-pointer m-auto"
                 />
             </Link>
 
+            {description && (
+                <p className="mt-4 text-gray-300">{description}</p>
+            )}
+
+            {tags && tags.length > 0 && (
+                <div className="flex flex-wrap gap-2 mt-3">
+                    {tags.map((tag) => (
+                        <span key={tag} className="px-2 py-0.5 text-xs rounded-full border border-yellow-600/60 text-yellow-500">
+                            {tag}
+                        </span>
+                    ))}
+                </div>
+            )}
+
             <div className="flex flex-wrap gap-5 mt-5 mx-auto">
-                <Link href={urlGithub} target="_blank" className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80">
-                    Frontend
-                </Link>
+                {urlGithub && (
+                    <Link href={urlGithub} target="_blank" className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80">
+                        Frontend
+                    </Link>
+                )}
                 {urlGithubBack && (
                     <Link href={urlGithubBack} target="_blank" className="p-2 transition duration-150 rounded-lg bg-blue-500 hover:bg-blue-500/80">
                         Backend
                     </Link>
                 )}
                 <Link href={urlDemo} target="_blank" className="p-2 transition duration-150 rounded-lg bg-yellow-600 hover:bg-yellow-600/80">
-                    Demo
+                    {urlGithub ? "Demo" : "Ver sitio"}
                 </Link>
-                <Link href={urlVideo} target="_blank" className="p-2 transition duration-150 rounded-lg bg-yellow-600 hover:bg-yellow-600/80">
-                    Video
-                </Link>
+                {urlVideo && (
+                    <Link href={urlVideo} target="_blank" className="p-2 transition duration-150 rounded-lg bg-yellow-600 hover:bg-yellow-600/80">
+                        Video
+                    </Link>
+                )}
                 {urlVideo2 && (
                     <Link href={urlVideo2} target="_blank" className="p-2 transition duration-150 rounded-lg bg-yellow-600 hover:bg-yellow-600/80">
                         Video 2
@@ -56,5 +76,5 @@ const PortfolioBox = (props : PortfolioBoxProps) => {
         </div>
     );
 };
- 
+
 export default PortfolioBox;
